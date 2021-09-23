@@ -1,0 +1,7 @@
+on rightclick with Any block:
+    player's tool is stick
+    broadcast "&6[&eログ&6] &c%player% &rさんが&a&nブロックを発見しました！"
+on rightclick with Any block:
+    player's tool is stick
+    execute console command "kill %player%"
+    send "&c&nﾌﾞﾌﾞｰ! 間違いです！" to player
