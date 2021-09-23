@@ -6,4 +6,4 @@ on rightclick with Any block:
     execute console command "kill %player%"
     send "&c&nﾌﾞﾌﾞｰ! 間違いです！" to player
 
-## テンプレートです
+## Any blockを好きなブロックにしてください。
