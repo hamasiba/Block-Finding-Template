@@ -5,3 +5,5 @@ on rightclick with Any block:
     player's tool is stick
     execute console command "kill %player%"
     send "&c&nﾌﾞﾌﾞｰ! 間違いです！" to player
+
+## テンプレートです
