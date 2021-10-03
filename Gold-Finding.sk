@@ -1,0 +1,11 @@
+on rightclick with golden block:
+    player is in "gold"
+    player's tool is stick
+    broadcast "&6[&eログ&6] &c%player% &rさんが&a&nブロックを発見しました！"
+command /goldgame <text>:
+    aliases: /gg
+    permission: gold.game
+    trigger:
+        send "&aワールドを準備しています..." to player
+        execute console command "mv clone templategold gold"
+        send "&aワールドを作成できました！" to player
